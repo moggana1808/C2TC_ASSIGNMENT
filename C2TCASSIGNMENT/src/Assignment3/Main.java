@@ -20,7 +20,7 @@ package Assignment3;
 	                airfare = new AirIndia(hours, costPerHour);
 	                break;
 	            case 2:
-	                airfare = new KingFisher(hours, costPerHour);
+	                airfare = (Airfare) new KingFisher(hours, costPerHour);
 	                break;
 	            case 3:
 	                airfare = new Indigo(hours, costPerHour);

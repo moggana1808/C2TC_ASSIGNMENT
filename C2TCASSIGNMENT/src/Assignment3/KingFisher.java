@@ -1,7 +1,7 @@
 package Assignment3;
 
 
-	public class KingFisher implements Airfare {
+	public class KingFisher  {
 		private int hours;
 	    private double costPerHour;
 
@@ -28,7 +28,6 @@ package Assignment3;
 	        this.costPerHour = costPerHour;
 	    }
 
-	    @Override
 	    public double calculateAmount() {
 	        return hours * costPerHour * 4;
 	    }

@@ -29,7 +29,6 @@ package Assignment3;
 	        this.costPerHour = costPerHour;
 	    }
 
-	    @Override
 	    public double calculateAmount() {
 	        return hours * costPerHour * 8;
 	    }
